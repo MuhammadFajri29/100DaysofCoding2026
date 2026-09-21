@@ -6,7 +6,7 @@ public class Days20 {
         int a = in.nextInt();
 
         String as = String.valueOf(a);
-        String hs = as + as;
+        String hs = as.repeat(2);
         System.out.println("Hasil string: " + hs);
         System.out.println("Panjang teks: " + hs.length());
 

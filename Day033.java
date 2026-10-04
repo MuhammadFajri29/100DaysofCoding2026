@@ -3,11 +3,11 @@ public class Days33 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Masukkan Panjang Sisi Alas (meter): ");
-        int p = in.nextInt();
+        double p = in.nextDouble();
         System.out.print("Masukkan Tinggi Limas (meter): ");
-        int t = in.nextInt();
+        double t = in.nextDouble();
         double luas = p*p;
-        double volume = p*p*t/3;
+        double volume = p*p*t/3.0;
 
         String kategori;
         if (volume > 5000) {
